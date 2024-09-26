@@ -1,2 +1,2 @@
-# Farmacia
-Site para inauguração de uma farmácia!
+# Farmarcia
+Site desenvolvido para a grande solenidade de inauguração do maior empreendimento do ramo farmacêutico!

@@ -1,0 +1,49 @@
+body{
+  background-color: var(--cor-5);
+}
+
+.nav{
+  display: flex;
+  color: var(--cor-6);
+  font-size: 20px;
+  font-family: "Poppins" , sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+img{
+  width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+label:hover{
+  color: var(--cor-1);
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.botoes{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.botao{
+  background-color: var(--cor-4);
+  color: var(--cor-5);
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  padding: 1%;
+}
+
+button:hover{
+  background-color: var(--cor-1);
+  transform: scale(1.1);
+  transition: 1s;
+}

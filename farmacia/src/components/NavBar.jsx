@@ -9,9 +9,8 @@ function NavBar() {
         <label htmlFor="">Início</label>
         <label htmlFor="">Medicamentos</label>
         <label htmlFor="">Sobre Nós</label>
-        <div className='botoes'>
+        <div>
             <button className='botao'>Login</button>
-            <button className='botao'>Cadastrar-se</button>
         </div>
     </div>
   )

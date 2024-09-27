@@ -2,6 +2,10 @@ body{
   background-color: var(--cor-5);
 }
 
+
+
+/* NavBar */
+
 .nav{
   display: flex;
   color: var(--cor-6);
@@ -25,12 +29,6 @@ label:hover{
   transition: 1s;
 }
 
-.botoes{
-  display: flex;
-  gap: 10px;
-  justify-content: flex-end;
-}
-
 .botao{
   background-color: var(--cor-4);
   color: var(--cor-5);
@@ -42,8 +40,173 @@ label:hover{
   padding: 1%;
 }
 
-button:hover{
+.botao:hover{
   background-color: var(--cor-1);
   transform: scale(1.1);
   transition: 1s;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+
+/* Corpo */
+
+.logoMaior{
+  width: 700px;
+}
+
+.divLogo{
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  margin-left: 50px;
+}
+
+h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+  color: var(--cor-3);
+  font-size: 45px;
+}
+
+.divMaior{
+  margin-top: 90px;
+  margin-left: 160px;
+  width: fit-content;
+}
+
+.divMaior:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.texto{
+  color: var(--cor-6);
+  font-size: 25px;
+  font-family: 'Poppins' , sans-serif;
+}
+
+.botaoo{
+  background-color: var(--cor-4);
+  color: var(--cor-5);
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  font-size: 22px;
+  padding: 1%;
+  margin-top: 30px;
+}
+
+.botaoo:hover{
+  background-color: var(--cor-1);
+  transition: 1s;
+}
+
+.textoInformativo{
+  margin-left: 150px;
+  padding: 6%;
+}
+
+
+/* Descontos */
+
+.umaCamiseta{
+  width: 200px;
+  border-radius: 20px;
+}
+
+.duasCamisetas{
+  width: 200px;
+  border-radius: 20px;
+}
+
+.imagens{
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-evenly;
+}
+
+.img1:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.3));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.3));
+  transition: 1s;
+}
+
+.img2:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.3));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.3));
+  transition: 1s;
+}
+
+.titulo{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
+  font-style: normal;  
+  color: var(--cor-3);
+  font-size: 30px;
+  text-align: center;
+  padding: 2%;
+}
+
+.textinho{
+  color: var(--cor-4);
+  font-size: 20px;
+  font-family: 'Poppins' , sans-serif;
+  text-align: center;
+}
+
+/* Footer */
+
+.fotoFooter{
+  width: 300px;
+}
+
+.footer{
+  position: relative;
+  margin-top: 200px;
+  display: block;
+  border-top: 2px solid var(--cor-6);
+  padding-top: 3%;
+}
+
+.nomes{
+  display: flex;
+  margin-left: 785px;
+  margin-top: -20px;
+}
+
+.textinhoo{
+  color: var(--cor-4);
+  font-size: 20px;
+  font-family: 'Poppins' , sans-serif;
+  text-align: center;
+  align-items: center;
+  margin-left: 10px;
+
+}
+
+.textinhoo:hover{
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.textinhos{
+  color: var(--cor-4);
+  font-size: 20px;
+  font-family: 'Poppins' , sans-serif;
+  text-align: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nomess{
+  display: flex;
+  margin-left: 850px;
+  margin-top: -20px;
 }

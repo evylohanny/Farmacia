@@ -1,6 +1,9 @@
 import React from 'react'
+import { useState } from 'react'
+import Login from './Login'
 
 function NavBar() {
+  const [login, setLogin] = useState()
   return (
     <div className='nav'>
       <div className='logo'>

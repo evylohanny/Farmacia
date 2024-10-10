@@ -1,19 +1,19 @@
 import React from 'react'
-import { useState } from 'react'
-import Login from './Login'
+import { Link } from 'react-router-dom'
+
 
 function NavBar() {
-  const [login, setLogin] = useState()
+  
   return (
     <div className='nav'>
       <div className='logo'>
-        <img src="./public/Imagens/LogoMenor.png" alt="LogoMenor" />
+        <img src="./public/Imagens/LogoMenor.png" alt="LogoMenor" className='img' />
       </div>
-        <label htmlFor="">Início</label>
-        <label htmlFor="">Medicamentos</label>
-        <label htmlFor="">Sobre Nós</label>
+        <Link to = '/' className='link'>Início</Link>
+        <label className='labelNav'>Medicamentos</label>
+        <label className='labelNav'>Sobre Nós</label>
         <div>
-            <button className='botao'>Login</button>
+            <Link to = '/login' className='botaoLink'>Login</Link>
         </div>
     </div>
   )

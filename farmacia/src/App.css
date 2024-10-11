@@ -2,6 +2,10 @@ body{
   background-color: var(--cor-5);
 }
 
+.seta{
+  width: 40px;
+  height: 40px;
+}
 
 
 /* NavBar */
@@ -162,7 +166,9 @@ h1{
   display: flex;
   margin-top: 70px;
   justify-content: space-evenly;
+  margin-left: 100px;
 }
+
 
 .img1:hover{
   -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.3));
@@ -191,12 +197,17 @@ h1{
   font-size: 20px;
   font-family: 'Poppins' , sans-serif;
   text-align: center;
+  margin-left: -100px;
 }
 
 /* Footer */
 
 .fotoFooter{
   width: 300px;
+  margin: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer{
@@ -247,31 +258,35 @@ h1{
 /* Login */
 
 .login{
-  border: 1px solid var(--cor-1);
+  /* border: 1px solid var(--cor-1); */
   margin: auto;
   width: 900px;
   padding: 2%;
-  margin-top: 300px;
+  margin-top: 150px;
   display: flex;
+  /* box-shadow: 5px 10px; */
 }
 
 .menorLogin{
-  display: flex;
-  flex-direction: column;
   font-family: 'Poppins' , sans-serif;
   font-size: 20px;
-  color: var(--cor-1);
+  color: var(--cor-2);
+  margin-top: 50px;
 }
 
 .menorLogin input{
   background-color: rgba(255, 0, 0, 0);
   width: 350px;
   border: none;
-  border-bottom: 1px solid var(--cor-1);
+  border-bottom: 1px solid var(--cor-2);
+  margin-top: 20px;
 }
 
 .menorLogin input:focus{
   outline: none;
+  font-family: 'Poppins' , sans-serif;
+  color: var(--cor-2);
+  font-size: 15px;
 }
 
 .botaooLogin{
@@ -303,10 +318,31 @@ h1{
 
 .divImg{
   width: fit-content;
-  margin-right: 50px;
+  margin-left: -50px;
 }
 
-.menorLogin{
-  margin-top: 50px;
-  margin-left: 50px;
+.loginMenor{
+  margin-left: -10px;
+  background-color: var(--cor-1);
+  padding: 5%;
+  border-radius: 20px;
+}
+
+.loginMenor h1{
+  color: var(--cor-2);
+  margin: auto;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.escrita{
+  text-decoration: none;
+  font-family: 'Poppins' , sans-serif;
+  color: var(--cor-2);
 }
